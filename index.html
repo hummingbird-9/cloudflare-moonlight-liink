@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Stream Loading...</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArchIMac Stream Viewer</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: #121212;
+            overflow: hidden;
+            color: #fff;
+            font-family: system-ui, sans-serif;
+        }
+        .stream-container {
+            width: 100%;
+            height: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-<p>Waiting for stream URL...</p>
+    <div class="stream-container">
+        <iframe src="https://gibson-restaurants-context-solar.trycloudflare.com" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
